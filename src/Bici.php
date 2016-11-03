@@ -9,8 +9,3 @@ class Bici extends Transporte {
     $this->tipo = "bici";
     $this->patente = $patente;
   }
-
-  public function Nombre() {
-    return $this->patente;
-  }
-}
