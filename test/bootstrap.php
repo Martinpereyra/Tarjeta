@@ -4,3 +4,5 @@ if ( ! is_file($autoloadFile = __DIR__.'/../vendor/autoload.php')) {
     exit(1);
 }
 require_once $autoloadFile;
+
+?>
