@@ -13,8 +13,3 @@ class Colectivo extends Transporte {
     $this->nombre = $nombre;
     $this->linea = $linea;
   }
-
-  public function Nombre() {
-    return $this->nombre;
-  }
-}
